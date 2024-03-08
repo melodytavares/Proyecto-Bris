@@ -1,0 +1,58 @@
+html {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 18px
+}
+
+header {
+    width: 100%;
+    margin: 0;
+    padding: 1rem;
+    box-sizing: border-box;
+    background-color: aqua;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+a {
+    color: #000000;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: x-large;
+}
+
+ul {
+    list-style-type: none;
+}
+
+.index {
+    height: 100%;
+    width: 40%;
+    display: flex;
+    justify-content: space-around;
+}
+
+#logoheader{
+    border: 1px solid black;
+    max-width: 90%;
+    height: auto;
+}
+
+#carrito{
+    height: 40px;
+    width: 40px;
+}
+
+#carritoheader {
+    max-width: 50%;
+    height: auto;
+}
+
+footer{
+    background-color: chartreuse;
+}
+
+#logofooter {
+    max-width: 10%;
+    height: auto;
+}
