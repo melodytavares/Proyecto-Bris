@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bris 2010 C.A</title>
+    <!-- Enlaces a archivos CSS  cambiarlo despues al que sea-->
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+    <!-- Header -->
+    <header>
+        <div class="logo">
+            <img id="logoheader" src="./assets/logo-header.png" alt="Logo Bris 2010 C.A header">
+        </div>
+        <div class="index">
+            <a href="./index.html" id="inicio">INICIO</a>
+            <a href="./shop/shop.html" id="productos">PRODUCTOS</a>
+            <a href="./contact/contact.html" id="productos">CONTACTO</a>
+            <a href="./carrito/carrito.html" id="carrito"><img id="carritoheader" src="./assets/carrito-logo.png"
+                    alt="Logo carrito de compra"></a>
+        </div>
+    </header>
+
+    <!-- Contenido de la página -->
+    <main>
+        <!-- Sección de la izquierda -->
+        <section id="contact-Left">
+            <ul>
+                <li> <img src ="../assets/llamada-telefonica.png" alt="Telefono"> <span> +34 123 45 67 89</span> </li>
+                <li> <img src ="../assets/ubicacion (1).png" alt="Ubicacion" > <span> Canary Islands</span> </li>
+            </ul>
+            <div>Redes Sociales</div>
+            <div class="redes">
+                <img src="../assets/facebook.png" alt="Facebook">
+                <img src="../assets/instagram .png" alt="Instagram">
+                <img src="../assets/tik-tok.png" alt="TikTok">
+                <img src="../assets/twitter.png" alt="Twitter">
+                <img src="../assets/linkedin.png" alt="Linkedin">
+            </div>
+        </section>
+
+        <!-- Sección de Contact Us -->
+        <section id="contact-us">
+            <div> Contacta con nosotros</div>
+            <form>
+                <input type="text" id="nombre" name="nombre" placeholder="Nombre*">
+                <input type="text" id="apellido" name="apellido" placeholder="Apellido*">
+                <br>
+                <input type="text" id="mail" name="mail" placeholder="Mail*">
+                <br>
+                <textarea id="mensaje" name="mensaje" placeholder="Escribe tu mensaje aquí"></textarea>
+                <br>
+                <span>Marca del coche</span>
+                <select>
+                    <option value="Volkswagen">Volkswagen</option>
+                    <option value="Skoda">Skoda</option>
+                    <option value="Audi">Audi</option>
+                    <option value="BMW">BMW</option>
+                    <option value="Mercedes Benz">Mercedes Benz</option>
+                    <option value="Renault">Renault</option>
+                    <option value="Kia">Kia</option>
+                    <option value="Nissan">Nissan</option>
+                    <option value="Range Rover">Range Rover</option>
+                </select>
+                <br>
+                <input type="checkbox" name="agreement" />
+                <span>I agree to the <span class="textmod"> terms and conditions</span></span>
+                <br>
+                <button type="submit">Enviar Formunario</button>
+            </form>
+        </section>
+
+    
+    </main>
+
+    <!-- Footer -->
+    <footer>
+        <p>© 2023 Bris 2010 C.A</p>
+        <p>SITEMAP</p>
+        <ul>
+            <li><a href="../index.html">Inicio</a></li>
+            <li><a href="../shop/shop.html">Productos</a></li>
+        </ul>
+        <p>EMPRESA</p>
+        <ul>
+            <li><a href="nolink">Trabaja con nosotros</a></li>
+        </ul>
+        <p>CONTACTO</p>
+        <ul>
+            <li><a href="../contact/contact.html">Contacta con nosotros</a></li>
+        </ul>
+        <p>LEGAL</p>
+        <ul>
+            <li><a href="nolink">Aviso legal</a></li>
+            <li><a href="nolink">Política de privacidad</a></li>
+            <li><a href="nolink">Política de cookies</a></li>
+        </ul>
+        <img id="logofooter" src="../assets/logo-footer.png" alt="Logo Bris 2010 C.A footer">
+    </footer>
+
+</body>
+
+</html>
