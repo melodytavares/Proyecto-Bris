@@ -1,0 +1,52 @@
+html {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 18px
+}
+
+main {
+    display: flex;
+    font-weight:lighter;
+    font-size: x-large;
+}
+
+#contact-Left , #contact-us , li {
+    border: 1px solid black;
+}
+
+#contact-Left {
+    background-color: rgba(223, 202, 159, 0.39);
+    width: 300px; /* Ancho de la caja */
+    height: 400px;
+    padding: 75px 20px 75px 30px;
+    
+}
+
+#contact-us{
+    background-color: rgba(223, 202, 159, 0.39);
+    width: 500px; /* Ancho de la caja */
+    height: 550px;
+    padding: 50px 20px 50px 30px;
+}
+
+
+.img-list , #redes{
+    border: 1px solid red;
+    height: 40px;
+    width: 40px;
+}
+
+.list {
+    width: 60px;
+}
+
+/* .formulario input[type="text"] {
+    display: flex;
+    justify-content: center;
+
+    width: 60%;
+    
+    margin-bottom: 2px;
+    
+    margin-left: auto;
+
+} */
