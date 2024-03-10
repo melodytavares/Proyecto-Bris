@@ -1,0 +1,57 @@
+.proveedores {
+    outline: none;
+    border: none;
+    text-decoration: none;
+    transition: .2s linear;
+    background-color: #FFFFFF;
+    padding: 15px 9%;
+    padding-bottom: 100px;
+    padding-top: 100px;
+    box-sizing: border-box;
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    gap: 15px;
+}
+
+.proveedores-titulo h3{
+    text-align: center;
+    padding-top: 60px;
+    color: rgb(47, 45, 45);
+    font-size: 50px;
+}
+
+.proveedores .proveedor {
+    box-shadow: 0 5px 10px rgba(0, 0, 0, .2);
+    border-radius: 5px;
+    background-color: #FFFFFF;
+    text-align: center;
+    padding: 30px 20px;
+    box-sizing: border-box;
+    border-color: rgb(189, 186, 186);
+}
+
+.proveedores .proveedor:hover {
+    box-shadow: 0 0 15px rgba(0, 0, 0, 1);
+}
+
+.proveedores .proveedor img {
+    height: 100px;
+    width: 100px;
+    filter: grayscale(100%);
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    -ms-transition: all 0.3s;
+    -o-transition: all 0.3s;
+    transition: 0.3s;
+}
+
+.proveedores .proveedor img:hover {
+    filter: grayscale(0%);
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    -ms-transition: all 0.3s;
+    -o-transition: all 0.3s;
+    transition: 0.3s;
+}
+
+
