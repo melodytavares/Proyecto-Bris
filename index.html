@@ -4,13 +4,20 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Bris 2010 C.A</title>
+    <!-- Links CSS -->
     <link rel="stylesheet" href="./style/main.css">
     <link rel="stylesheet" href="./style/header.css">
     <link rel="stylesheet" href="./style/footer.css">
+    <link rel="stylesheet" href="./style/carousel.css">
+    <link rel="stylesheet" href="./style/cards.css">
+    <link rel="stylesheet" href="./style/proveedores.css">
+    <!-- Links Fonts and Icons -->
     <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,600" rel="stylesheet">
     <script src="https://kit.fontawesome.com/bb2f7f0cf7.js" crossorigin="anonymous"></script>
 </head>
 <body>
+
+    <!-- Header -->
     <header>
         <div class="logo">
             <img id="logoheader" src="./assets/logo-header.png" alt="Logo Bris 2010 C.A header">
@@ -23,7 +30,10 @@
         </div>
     </header>
 
+    <!-- Main Structure -->
     <main>
+
+        <!-- Carousel -->
         <div id="itemsCarousel">
             <div class="carousel" id="carousel1">
                 <div class="tarjetaCarousel" id="tarjeta1">
@@ -65,30 +75,99 @@
                 </div>
             </div>
         </div>
+
+        <!-- Tarjetas -->
+        <div class="cards">
+            <div class="card">
+                <img src="./assets/reparto-landing.png" alt="Camión">
+                <h3>Servio Repartos</h3>
+                <p>Pida su repuesto y recíbalo en su Taller en poco tiempo. Nuestras rutas de reparto cubren toda la provincia de Santa
+                Cruz de Tenerife. También realizamos envíos a cualquiera de las Islas Canarias.</p>
+            </div>
+            <div class="card">
+                <img src="./assets/soporte-landing.png" alt="Soporte Profesional">
+                <h3>Soporte Profesional</h3>
+                <p>Pregunte por el recambio que busca llamando a nuestro Call Center, contactando por WhatsApp, página web o visitando
+                cualquiera de nuestras tiendas de Santa Cruz de Tenerife. Nuestro personal le atenderá con la profesionalidad y eficacia
+                que usted merece.</p>  
+            </div>
+            <div class="card">
+                <img src="./assets/calidad-landing.png" alt="Calidad-Precio">
+                <h3>Calidad - Precio</h3>
+                <p>Nuestra amplia gama de marcas y artículos nos permiten tener precios competitivos y productos de calidad, adaptados a
+                las necesidades y características de nuestros clientes.</p>
+            </div>
+        </div>
+
+        <!-- ¿Qué hacemos? -->
+        <div class="info">
+            <div class="informacion">
+                <h2>¿Qué ofrecemos a nuestros clientes?</h2>
+                <p>En Bris 2010 C.A nos dedicamos a la venta y comercialización de recambios y equipamiento de taller, con el fin de
+                    tener un trato personalizado y profesional para que el cliente quede satisfecho, nuestra sede principal está
+                    ubicada Santa Cruz de Tenerife y prestamos servicios a todas las Islas Canarias.</p>   
+            </div>
+            <div class="coche-landing">
+                <img id="coche-foto" src="./assets/coche-landing.png" alt="Coche">
+            </div>
+        </div>
+        <div>
+
+        <!-- Tarjetas Proveedores -->
+        <div class="proveedores-titulo">
+            <h3>Nuestros proveedores</h3>
+        </div>
+        <div class="proveedores">
+            <div class="proveedor">
+                <a href="https://hc-cargo.es/"><img src="./assets/cargo.png" alt="Logo Cargo"></a>
+            </div>
+            <div class="proveedor">
+                <a href="https://oilproducts.eni.com/es_ES/"><img src="./assets/eni.png" alt="Logo Eni"></a>
+            </div>
+            <div class="proveedor">
+                <a href="https://www.ferodo.com/es-es/"><img src="./assets/ferodo.png" alt="Logo Ferodo"></a>
+            </div>
+            <div class="proveedor">
+                <a href="https://jbmcamp.com/"><img src="./assets/jbm.png" alt="Logo JBM"></a>
+            </div>
+            <div class="proveedor">
+                <a href="https://mintex.com/?lang=es"><img src="./assets/mintex.png" alt="Logo Mintex"></a>
+            </div>
+            <div class="proveedor">
+                <a href="https://www.repsol.com/es/index.cshtml"><img src="./assets/repsol.png" alt="Logo Repsol"></a>
+            </div>
+        </div>
+
+        </div>
     </main>
 
+    <!-- Footer -->
     <footer>
-        <p>© 2023 Bris 2010 C.A</p>
-        <p>SITEMAP</p>
-            <ul>
-                <li><a href="./index.html">Inicio</a></li>
-                <li><a href="./shop/shop.html">Productos</a></li>
-            </ul>
-        <p>EMPRESA</p>
-            <ul>
-                <li><a href="nolink">Trabaja con nosotros</a></li>
-            </ul>
-        <p>CONTACTO</p>
-            <ul>
-                <li><a href="./contact/contact.html">Contacta con nosotros</a></li>
-            </ul>
-        <p>LEGAL</p>
-            <ul>
-                <li><a href="nolink">Aviso legal</a></li>
-                <li><a href="nolink">Política de privacidad</a></li>
-                <li><a href="nolink">Política de cookies</a></li>
-            </ul>
-        <img id="logofooter" src="./assets/logo-footer.png" alt="Logo Bris 2010 C.A footer">
-    </footer>  
+        <div class="footerContainer">
+            <div class="socialIcons">
+                <a href="">
+                    <i class="fa-brands fa-instagram"></i>
+                </a>
+                <a href="">
+                    <i class="fa-brands fa-x-twitter"></i>
+                </a>
+                <a href="">
+                    <i class="fa-brands fa-facebook"></i>
+                </a>
+            </div>
+            <div class="footerNav">
+                <ul>
+                    <li><a href="./index.html">Inicio</a></li>
+                    <li><a href="nolink">Empresa</a></li>
+                    <li><a href="./contact/contact.html">Contacto</a></li>
+                    <li><a href="nolink">Legal</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="footerBottom">
+            <p>Bris 2010 C.A</p>
+            <p>© 2023</p>
+        </div>
+    </footer>
 </body>
 </html>
