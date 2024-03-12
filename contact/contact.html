@@ -9,9 +9,6 @@
     <link rel="stylesheet" href="../style/contact.css">
     <link rel="stylesheet" href="../style/header.css">
     <link rel="stylesheet" href="../style/footer.css">
-    <link rel="stylesheet" href="./style/carousel.css">
-    <link rel="stylesheet" href="./style/cards.css">
-    <link rel="stylesheet" href="./style/proveedores.css">
     <!-- Links Fonts and Icons -->
     <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,600" rel="stylesheet">
     <script src="https://kit.fontawesome.com/bb2f7f0cf7.js" crossorigin="anonymous"></script>
@@ -32,27 +29,40 @@
         </div>
     </header>
 
+    <div class="mapa">
+        <img id="maps" src ="../assets/mapa.png">
+    </div>
     <!-- Contenido de la página -->
     <main>
         <!-- Sección de la izquierda -->
         <section id="contact-Left">
-            <ul>
-                <li> <img class ="img-list" src ="../assets/llamada-telefonica.png" alt="Telefono"> <span class="list"> +34 123 45 67 89</span> </li>
-                <li> <img class ="img-list" src ="../assets/ubicacion (1).png" alt="Ubicacion" > <span class="list"> Canary Islands</span> </li>
+            <ul class ="ul-Left">
+                <li class="li-Left"> <img class ="img-list" src ="../assets/llamada-telefonica.png" alt="Telefono"> <span class="list"> +34 123 45 67 89</span> </li>
+                <li class="li-Left"> <img class ="img-list" src ="../assets/ubicacion (1).png" alt="Ubicacion" > <span class="list"> Canary Islands</span> </li>
             </ul>
-            <div>Redes Sociales</div>
+            <h2 class="text-redes">Redes Sociales</h2>
             <div class="redes">
-                <img id="redes" src="../assets/facebook.png" alt="Facebook">
-                <img id="redes" src="../assets/instagram .png" alt="Instagram">
-                <img id="redes" src="../assets/tik-tok.png" alt="TikTok">
-                <img id="redes" src="../assets/twitter.png" alt="Twitter">
-                <img id="redes" src="../assets/linkedin.png" alt="Linkedin">
+                <a href ="https://www.facebook.com/people/Auto-Accesorios-Bris-2010/100041995057023/"">
+                    <img id="redes" src="../assets/facebook.png" alt="Facebook">
+                </a>
+                <a href="https://www.instagram.com/bris2010.ca/?img_index=1">
+                    <img id="redes" src="../assets/instagram .png" alt="Instagram">
+                </a>
+                <a href="https://www.tiktok.com/">
+                    <img id="redes" src="../assets/tik-tok.png" alt="TikTok">
+                </a>
+                <a href ="https://twitter.com/">
+                    <img id="redes" src="../assets/twitter.png" alt="Twitter">
+                </a>
+                <a href="https://www.linkedin.com">
+                    <img id="redes" src="../assets/linkedin.png" alt="Linkedin">
+                </a>
             </div>
         </section>
 
         <!-- Sección de Contact Us -->
         <section id="contact-us">
-            <div> Contacta con nosotros</div>
+            <h2> Contacta con nosotros</h2>
             <form class="formulario">
                 <input type="text" id="nombre" name="nombre" placeholder="Nombre*">
                 <input type="text" id="apellido" name="apellido" placeholder="Apellido*">
@@ -61,27 +71,30 @@
                 <br>
                 <textarea id="mensaje" name="mensaje" placeholder="Escribe tu mensaje aquí"></textarea>
                 <br>
-                <span>Marca del coche</span>
-                <select>
-                    <option value="Volkswagen">Volkswagen</option>
-                    <option value="Skoda">Skoda</option>
-                    <option value="Audi">Audi</option>
-                    <option value="BMW">BMW</option>
-                    <option value="Mercedes Benz">Mercedes Benz</option>
-                    <option value="Renault">Renault</option>
-                    <option value="Kia">Kia</option>
-                    <option value="Nissan">Nissan</option>
-                    <option value="Range Rover">Range Rover</option>
-                </select>
+                <div class="marca-container"> 
+                    <span class="marca">Marca del coche</span>
+                    <select>
+                        <option value="Volkswagen">Volkswagen</option>
+                        <option value="Skoda">Skoda</option>
+                        <option value="Audi">Audi</option>
+                        <option value="BMW">BMW</option>
+                        <option value="Mercedes Benz">Mercedes Benz</option>
+                        <option value="Renault">Renault</option>
+                        <option value="Kia">Kia</option>
+                        <option value="Nissan">Nissan</option>
+                        <option value="Range Rover">Range Rover</option>
+                    </select>
+                </div>
                 <br>
-                <input type="checkbox" name="agreement" />
-                <span>I agree to the <span class="textmod"> terms and conditions</span></span>
+                <div class="checkbox-container">
+                    <input type="checkbox" name="agreement" />
+                    <span>I agree to the <span class="textmod"> terms and conditions</span></span>
+                </div>
                 <br>
                 <button type="submit">Enviar Formunario</button>
             </form>
         </section>
 
-    
     </main>
 
     <!-- Footer -->
