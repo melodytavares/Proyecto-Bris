@@ -42,10 +42,3 @@ img {
 .tarjetaCarousel {
     position: relative;
 }
-
-.texto-carousel{
-    top: 10px;
-    position: absolute;
-    color: black;
-    height: 20px;
-}
