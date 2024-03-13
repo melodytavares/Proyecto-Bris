@@ -1,0 +1,128 @@
+/* Estilos generales */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+}
+
+/* Estilos para el catálogo de productos */
+.catalogo {
+    max-width: 1000px;
+    width: 100%;
+    margin: 80px auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.cat-prod {
+    text-align: center;
+    color:black;
+    box-shadow: 0px 0px 10px 5px rgba(0, 0, 0, 0.3);
+
+}
+
+
+.producto {
+    display: block;
+    max-width: 210px;
+    padding: 30px;
+    margin: 25px 10px;
+    cursor: pointer;
+    border-radius: 5%;
+    transition: .3s;
+    background-color: #e6e6e6;
+    padding: inherit;
+
+}
+
+
+.producto:hover {
+    background-color: #77c02c;
+    opacity: 0.7;
+}
+
+.producto img {
+    display: block;
+    margin: 0 auto;
+    max-width: 60%;
+    height: auto;
+    transition: .5s ease;
+}
+
+.producto h3 {
+    margin: 10px 0;
+    padding: inherit;
+    text-align: center;
+    padding: 5px;
+}
+
+.producto h5 {
+    margin: 10px 0;
+    text-align: center;
+    font-size: 3;
+
+}
+
+.producto li p {
+    font-size: 16px;
+    margin-left: 10px;
+
+
+}
+
+.producto ul {
+    list-style-type: none;
+    width: auto;
+    height: auto;
+    font-size: 18px;
+    padding: 0px;
+    margin: 0px;
+
+}
+
+
+.li {
+    margin: 5px 0;
+    width: 100%;
+    font-size: 18px;
+    padding: 6px;
+    margin-right: 30px;
+    margin-bottom: 10px;
+    /* Agrega este margen para crear espacio adicional entre los párrafos */
+}
+
+
+.precio {
+    font-size: 20px;
+    font-weight: bold;
+    color: #f85151;
+    margin-bottom: 10px;
+    display: block;
+    padding: 5px;
+    text-align: center;
+}
+
+/* Estilos para el contenedor del item seleccionado */
+
+.cerrar {
+    position: absolute;
+    right: 20px;
+    top: 20px;
+    cursor: pointer;
+    width: 40px;
+    height: 40px;
+    background-image: url("../assets/cerrar.png");
+    background-size: cover;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #f85151;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    font-size: 20px;
+    cursor: pointer;
+}

@@ -14,6 +14,8 @@
 main {
     margin-top: 30px;
     display: flex;
+    font-weight:lighter;
+    font-size: x-large;
     justify-content:space-around;/* Distribuye las secciones a lo largo del contenedor principal */
     /*background-color: blue;
     background-position: 0; tengo problemas con ponerle un fondo*/
