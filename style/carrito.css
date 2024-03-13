@@ -1,0 +1,78 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.carrito {
+    padding-top: 80px;
+    padding-bottom: 80px;
+    color: white;   
+}
+
+.unit-carrito img { 
+    width: 320px;
+    height: 340px;
+    object-fit: cover;
+    border-radius: 20px 20px 0px 0px;
+}
+
+.productos-carrito {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 50px;
+    margin-bottom: 20px;
+}
+
+.productos-carrito>div{
+    box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.75);
+    background-color: #77C02C;
+    border-radius: 20px;
+}
+
+.productos-carrito>div:hover {
+    background-color: #5f9728;
+}
+
+.descripcion { 
+    height: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.descripcion>p:first-child {
+    font-size: 15px;
+    font-weight: 300;
+}
+
+.descripcion .precio {
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.descripcion .precio span {
+    font-size: 17px;
+    font-weight: 300;
+}
+
+.descripcion button {
+    background-color: #223e06;
+    width: 120px;
+    height: 35px;
+    border-radius: 10px;
+    border: none;
+
+    font-size: 13px;
+    font-weight: 300;
+    cursor: pointer;
+    color: white;
+}
+
+.descripcion button:hover { 
+    background-color: #a4c880;
+}
