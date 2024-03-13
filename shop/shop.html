@@ -6,12 +6,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Bris 2010 C.A</title>
     <!-- Enlaces a archivos CSS  cambiarlo despues al que sea-->
-    <link rel="stylesheet" href="../style/main.css">
+    
     <link rel="stylesheet" href="../style/header.css">
     <link rel="stylesheet" href="../style/footer.css">
-    <link rel="stylesheet" href="./style/carousel.css">
-    <link rel="stylesheet" href="./style/cards.css">
-    <link rel="stylesheet" href="./style/proveedores.css">
+    <link rel="stylesheet" href="../style/productos.css">
+
     <!-- Links Fonts and Icons -->
     <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,600" rel="stylesheet">
     <script src="https://kit.fontawesome.com/bb2f7f0cf7.js" crossorigin="anonymous"></script>
@@ -35,7 +34,120 @@
 
     <!-- Contenido de la página -->
     <main>
-            <div> aqui van las cosas del shop </div>
+        <!-- Productos-->
+        <h1 class="cat-prod"> Catalogo de Productos</h1>
+        <div class="item" onclick="cargar(this)">
+        <ul class="catalogo">
+            <!-- Modulo de gasolina completo-->
+            <li class="producto">
+                <img class="Productos" src="../assets/Mod gasolina comp.jpg" alt="modulo gasolina completo">
+                <h3>Modulo de gasolina completo</h3>
+                <h5> Marca: Hammer</h5>
+                <p>Incluye el flotante</p>
+                <span class="precio"> €90.00</span>
+
+            </li>
+
+             <!-- Modulo de gasolina Fiesta-->
+            <li class="producto">
+                <img class="Productos" src="../assets/Mod gasolina Fiesta.jpg" alt="modulo gasolina Fiesta">
+                <h3>Modulo de gasolina para Ford Fiesta</h3>
+                <h5> Marca: Hammer</h5>
+                <ul> 
+                    <li><p>Incluye el flotante</p></li>
+                    </ul>
+                    <span class="precio"> €70.00</span>
+            </li>
+
+            <!-- Alarma Genius -->
+            <li class="producto">
+                <img class="productos" src="../assets/Alarma genius.jpg" alt="Alarma genius">
+                <h3>Alarma Genius con aplicación móvil</h3>
+                <h5> Incluye:</h5>
+                <ul> 
+                    <li><p>2 Controles</p></li>
+                    <li><p>juego Cableado</p></li>
+                    <li><p>1 sirena</p></li>
+                    <li><p>1 sirena</p></li>
+                </ul>         
+                <h5> Funciones básicas:</h5>
+                <ul>
+                    <li><p>Apertura y cierre de seguros</p></li>
+                    <li><p>Corta corriente</p></li>
+                    <li><p>Sensor de impacto</p></li>
+                    <li><p>Anti scanner</p></li>
+                    <li><p>Aplicación</p></li>
+                    </ul>
+                    <span class= "precio"> €50.00</span>
+                
+                        
+            </li>
+
+             <!-- Bombillo led Wellstar elite-->
+            <li class="producto">
+                <img img class="Productos" src="../assets/led Wellstar Elite.JPG" alt="Bombillo led Wellstar elite--">
+                <h3>Bombillo led Wellstar</h3>
+                <h5> Modelo: Elite</h5>
+                <ul>
+                    <li><p>Lúmenes: 20.000lm</p></li>
+                    <li><p>Garantía: De por vida</p></li>
+                    <li><p>Color: blanco</p></li>
+                    </ul>
+                    <span class="precio"> €120.00</span>
+               
+            </li>
+                      
+
+            <!-- Bombillo led Wellstar Star 2-->
+            <li class="producto">
+                <img img class="Productos" src="../assets/led Wellstar Star 2.JPG" alt="Bombillo led Wellstar star 2--">
+                 <h3>Bombillo led Wellstar</h3>
+                 <h5> Modelo: Star 2</h5>
+                 <ul>
+                    <li><p>Lúmenes: 10.000lm</p></li>
+                    <li><p>Garantía: De por vida</p></li>
+                    <li><p>Color: blanco</p></li>
+                    
+                 </ul>
+                    <span class="precio"> €60.00</span>
+                </li>
+
+    <!-- Bombillo led Wellstar Diamond-->
+    <li class="producto">
+        <img img class="Productos" src="../assets/led Wellstar Diamond.JPG" alt="Bombillo led Wellstar Diamond">
+        <h3>Bombillo led Wellstar</h3>
+        <h5> Modelo: Diamond</h5>
+        <ul>
+            <li><p>Lúmenes: 16.000lm</p></li>
+            <li><p>Garantía: De por vida</p></li>
+            <li><p>Color: blanco</p></li>
+        </ul>
+             <span class="precio"> €90.00</span>
+        </li>
+
+       
+    <!-- Cable de sonido Rca tipo Y-->
+    <li class="producto">
+    <img img class="Productos" src="../assets/Cable Rca tipo Y.jpg" alt="Cable de sonido tipo Y">
+        <h3>Cable de sonido RCA tipo Y</h3>
+        <h5> Marca: Stinger</h5>
+        <span class="precio"> €7.00</span>
+    </li>
+    
+    <!--Seguro para bateria de vehículos universal-->
+    <li class="producto">
+        <img class=" imagenes">
+        <img img class="Productos" src="../assets/Seguro para bateria.jpg" alt="seguro de bateria universal">
+        <h3>Seguro para batería de vehículos</h3>
+        <h5> Modelo: Universal</h5>
+        <span class="precio"> €120.00</span>
+            </li>
+            <!-- CONTENEDOR DEL ITEM SELECCIONADO -->
+            <div class="seleccion" id="seleccion">
+                <div class="cerrar" onclick="cerrar()">
+                </div>
+                <button onclick="window.location.href = ' ../carrito/carrito.html';">IR AL CARRITO</button>
+                <!--button>IR AL CARRITO</!--button-->
     </main>
 
     <!-- Footer -->
