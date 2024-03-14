@@ -189,7 +189,7 @@ function agregarItemAlCarrito (titulo,precio){
 }
 
 function pagarclick (event){
-    alert("Muchas gracias por su compra!!!");
+    alert("¡Muchas gracias por su compra!");
     //eliminamos los items del carrito
     let carritoItems = document.getElementsByClassName("carrito-items")[0];
     while (carritoItems.hasChildNodes()){
