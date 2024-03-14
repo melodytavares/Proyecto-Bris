@@ -83,6 +83,8 @@ function ocultarCarrito(){
         carrito.style.marginRigth = "-100%";
         carrito.style.opacity ="0";
         carritoVisible = false;
+        var items = document.getElementsByClassName('carrito-compras')[0];
+        items.style.width = '0%';
     }
 }
 
@@ -135,6 +137,8 @@ function hacerVisible() {
     let carrito = document.getElementsByClassName("carrito-compras")[0];
     carrito.style.marginRight = '0';
     carrito.style.opacity = '1';
+    var items = document.getElementsByClassName('carrito-compras')[0];
+    items.style.width = '35%';
     /* var items = document.getElementsByClassName('carrito')[0];
     items.style.width = '60%'; */
 }
@@ -184,7 +188,7 @@ function agregarItemAlCarrito (titulo,precio){
     botonSumarCantidad.addEventListener('click', sumarCantidad);
 
     //Actualizamos total
-    actualizarTotalCarrito();
+    actualizarTotalVenta();
 }
 
 function pagarclick (event){
