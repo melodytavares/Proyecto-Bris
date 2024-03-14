@@ -118,15 +118,12 @@ function AgregarAlCarritoClick(event){
     let item = button.parentElement;
     let titulo = item.getElementsByClassName("titulo")[0].innerText;//me da el titulo del articulo a agregar
     let precio = item.getElementsByClassName("precio")[0].innerText;
-
+    //hacer que aparezca el carro luego de una compra  si no esta 
     if(carritoVisible == false){
         hacerVisible();
     }
     //Agregamos al carrito 
     agregarItemAlCarrito(titulo,precio);
-
-    //hacer que aparezca el carro luego de una compra 
-
 
 }
 //visible carrito
