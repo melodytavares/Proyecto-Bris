@@ -2,8 +2,6 @@
     font-family: 'Open Sans', sans-serif;
 }
 
-
-
 .mapa img {
     display: block;
     margin-left: auto;
@@ -30,7 +28,7 @@ main {
 #contact-Left {
     width: 350px; /* Ancho de la caja */
     height: 400px;
-    padding: 70px 20px 70px 20px;  
+    padding: 35px 20px 35px 20px;  
     /*---posicion---*/
     position: relative;
     margin-left: 20%;
@@ -41,7 +39,7 @@ main {
 #contact-us {
     width: 500px; /* Ancho de la caja */
     height: 550px;
-    padding: 50px 30px 50px 30px;
+    padding: 20px 30px 20px 30px;
     /*---posicion---*/
     position: relative;
     margin-right:20%;
@@ -55,9 +53,10 @@ main {
 }
 
 .list {
-    width: 150px;
+    width: 200px;
     padding-top: 15px;
     padding-left: 10px;
+    font-size: 18px;
 }
 .img-list{
     margin: 5px 0px 5px 5px;
@@ -69,14 +68,14 @@ main {
 
 .li-Left {
     margin-bottom: 20px;
-    padding: 5px;
+    padding: 10px;
     display: flex;
     text-shadow: 2px 2px 4px rgba(3, 0, 0, 0.8);
 }
 
 
 .text-redes {
-    padding-top: 10px;
+    padding-top: 5px;
     text-align: center;
 }
 
@@ -84,7 +83,7 @@ main {
     display: flex;
     justify-content: center;/* Centra horizontalmente */
     align-items: center;/* Centra verticalmente */
-    margin-top: 15px;
+    margin-top: 10px;
 }
 
 #redes{
@@ -120,11 +119,10 @@ h2 {
 .formulario button {
     /* Centra los elementos en el centro horizontalmente */
     padding: 10px 20px;
-    margin-top: 15px;
     background-color: rgba(224, 189, 120, 0.411);
     color: #000000;
     border: none;
-    border-radius: 5px;
+    border-radius: 10px;
     cursor: pointer;
     box-shadow: 0px 0px 10px 5px rgba(0, 0, 0, 0.3);
 }
@@ -156,4 +154,8 @@ select {
 
 .textmod {
     color :rgb(172, 83, 212)
+}
+
+.textCheckbox , .marca {
+    font-size: 18px;
 }
